@@ -1,0 +1,6 @@
+Flask==3.0.3
+gunicorn==22.0.0
+reportlab==4.2.2
+PyJWT==2.9.0
+cryptography==43.0.1
+PyMySQL==1.1.1

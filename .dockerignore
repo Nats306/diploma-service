@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+test_service.py
+diploma_test.pdf
+diploma_from_service.pdf
+*.png
+.git/
