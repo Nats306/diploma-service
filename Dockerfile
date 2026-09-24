@@ -16,6 +16,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app.py cognito_auth.py db.py diploma_render.py ./
+COPY fonts ./fonts
 
 # Directorio home escribible por el grupo (OpenShift corre con GID 0)
 RUN mkdir -p /app/.cache && chgrp -R 0 /app && chmod -R g=u /app
